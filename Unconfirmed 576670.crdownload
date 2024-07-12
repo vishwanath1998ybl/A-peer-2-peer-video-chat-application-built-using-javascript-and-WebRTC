@@ -1,0 +1,19 @@
+{
+  "name": "god",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.6.3",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+
+    "simple-peer": "^9.7.0"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		<meta charset="utf-8">
+	</title>
+	<style type="text/css">
+		* {
+  box-sizing: border-box;
+}
+	body {
+  	font-family: Comic Sans MS,sans-serif;
+		}
+		#connect,#send {
+  background-color: black; /* Green */
+  color: white;
+  padding:3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+	</style>
+</head>
+<body style="background-color:indigo;">
+<h1 style="color:white;">Snanacha video chat app</h1>
+<label><h1 style="color:white;font-size:25px;">Your ID:</h1></label><span style='font-size:30px;'>&#128273;</span>
+<textarea id="yourId" style="border: 2px solid gold;border-radius:5px;overflow:hidden;resize:none;"></textarea>
+<label><h1 style="color:white;font-size:25px;">Peer's ID:</h1></label><span style='font-size:30px;'>&#128273;</span>
+<textarea id="otherId" style="border: 2px solid gold;border-radius:5px;overflow:hidden;resize:none;"></textarea><br/><br/>
+<button id="connect">connect</button><br/>
+<label><h1 style="color:white;font-size:25px;"><span style='font-size:30px;'>&#9889;</span>Enter Message:</h1></label>
+<textarea id="yourMessage" rows="10" cols="30" style="border: 2px solid gold;border-radius:5px;"></textarea><br/><br/>
+<button id="send">Send</button>
+<pre id="messages"></pre>
+<br/>
+<script src="bundle.js" charset="utf-8"></script>
+</body>
+</html>
